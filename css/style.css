@@ -272,7 +272,6 @@ footer {
 .social-icons-container a:hover,
 .social-icons-container a:focus {
   align-items: center;
-  background-color: none;
   outline: none;
   border: none;
 }
@@ -310,7 +309,7 @@ footer {
   border-radius: 2px;
   background-color: #051e3c;
   color: #ffffff;
-  padding: none; 
+  padding: 0; 
   transform: scale(1.2);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
   -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
@@ -426,7 +425,7 @@ footer {
 .nav-item{
 	border-right: 1px solid #f28100;
 	padding:0 15px;
-	text-align: top;
+	vertical-align: top;
     line-height: 1;
 }
 	
@@ -608,7 +607,7 @@ body{
 .nav-item{
 	border-right: 1px solid #f28100;
 	padding:0 15px;
-	text-align: top;
+	vertical-align: top;
     line-height: 1;
 }
 	
@@ -771,7 +770,7 @@ main {
   animation-name: color-change;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  animation-timing-function: lZ;
+  animation-timing-function: linear;
 }
 
 @keyframes cloud-move1 {
